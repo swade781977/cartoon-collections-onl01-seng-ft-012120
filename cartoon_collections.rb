@@ -13,9 +13,9 @@ def summon_captain_planet(array)
   end
   new_array
   
-  #empty
-  #fillup
-  #full
+  array.collect do |element|
+    
+  end
   
 end
 
