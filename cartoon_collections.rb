@@ -12,6 +12,11 @@ def summon_captain_planet(array)
     
   end
   new_array
+  
+  #empty
+  #fillup
+  #full
+  
 end
 
 def long_planeteer_calls(array)
