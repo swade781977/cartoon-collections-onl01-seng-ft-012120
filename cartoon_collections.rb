@@ -4,8 +4,9 @@ def roll_call_dwarves(array)
   end
 end
 require 'pry'
+
 def summon_captain_planet(array)
-  array.collect do |element|
+  array.map do |element|
     element.capitalize! + "!"
   end
 end
