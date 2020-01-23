@@ -3,12 +3,13 @@ def roll_call_dwarves(array)
     puts "#{index + 1}. #{name}"
   end
 end
-
+require 'pry'
 def summon_captain_planet(array)
   new_array =[]
   array.each do |element|
     
     i = element.capitalize! + "!"
+    
     new_array << i
     
   end
